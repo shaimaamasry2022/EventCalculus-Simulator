@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://localhost/eventcalcsim" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>EventCalculusSimulator_Version2.2</title>
+        <vendor>Shimo</vendor>
+        <homepage href=""/>
+        <description>EventCalculusSimulator_Version2.2</description>
+        <description kind="short">EventCalculusSimulator_Version2.2</description>
+
+
+    <icon href="53.gif" kind="default"/>
+<offline-allowed/>
+</information>
+
+    <resources>
+<j2se version="1.6+"/>
+<jar eager="true" href="EventCalculusSimulator_Version2.2.jar" main="true"/>
+
+
+    <jar href="lib/jcommon-1.0.10.jar"/>
+<jar href="lib/jfreechart-1.0.6.jar"/>
+<jar href="lib/AbsoluteLayout.jar"/>
+</resources>
+    <application-desc main-class="sourceFiles.MainForm">
+
+    </application-desc>
+</jnlp>
